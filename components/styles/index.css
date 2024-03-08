@@ -1,0 +1,52 @@
+:root {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(360deg, #fff, #242424);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+#root{
+  padding: 0;
+  width: 100%;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+::-webkit-scrollbar-thumb {
+  scroll-behavior: smooth;
+  background-color: rgb(152, 30, 30);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  opacity: 0.1;
+  background-color: rgba(255, 255, 0, 0.800);
+}
+
+
