@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './components/styles/App.css'
+import '../src/components/styles/App.css'
 import Container from './components/container/index.jsx'
 import Header from './components/header/index.jsx'
 import Footer from './components/footer/index.jsx'
@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom'
 import residencialpaint from '../public/home-images/residencialpaint.jpg'
 import industrialpaint from '../public/home-images/industrialpaint.jpg'
 import automotivepaint from '../public/home-images/automotivepaint.jpg'
-import residencialtexturepaint from '../public/home-images/residencialtexturepaint.jpg'
 import toolsforpaint from '../public/home-images/toolsforpaint.jpg'
 
 function App() {

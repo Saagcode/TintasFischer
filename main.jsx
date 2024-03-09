@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import AppRoutes from '../src/routes.jsx'
+import AppRoutes from './routes.jsx'
 import './components/styles/index.css'
 
 
