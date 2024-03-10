@@ -1,10 +1,10 @@
-import './header.css'
+import './header.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import { useEffect, useState } from 'react';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
-import Fischer_logo from '../../../public/icons/TINTAS_FISCHER_logo.png'
-import { Link, useNavigate } from 'react-router-dom'
+import 'aos/dist/aos.css';
+import Fischer_logo from '../../../public/icons/TINTAS_FISCHER_logo.png';
+import { Link, useNavigate } from 'react-router-dom';
 import { userSearch } from '../../../data/index.jsx';
 
 function Header() {
@@ -124,7 +124,7 @@ function Header() {
     
 
         const filteredResults = userSearch.filter(researches =>
-            researches.msg.props.children.toLowerCase().includes(inputValue)
+            researches.msg.toLowerCase().includes(inputValue)
         );
         setFilteredResults(filteredResults);
         if (inputValue === '') {
@@ -234,9 +234,9 @@ function Header() {
                                     <div className='search-bar_expanded' data-aos='fade-down' data-aos-duration='500' data-aos-offset='50'>
                                         <h1 style={{ color: 'black' }}>
                                             <ul style={{ listStyle: 'none' }} onClick={addToHistory}>
-                                                {filteredResults.map((researches) => (
+                                                {filteredResults && filteredResults.map((researches) => (
                                                     <li key={researches.id}>
-                                                        <p onClick={() => handleSearchItemClick(researches.msg.props.children)}>{researches.msg}</p>
+                                                        <p onClick={() => handleSearchItemClick(researches.msg)}>{researches.msg}</p>
                                                     </li>
                                                 ))}
                                             </ul>
