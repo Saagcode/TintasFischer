@@ -1,0 +1,33 @@
+.container-background-arrow {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    align-items: center;
+}
+.dev-merchan {
+    margin: 0px 25px;
+}
+.dev-name {
+    font-style: italic;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
+.dev-name:hover {
+    color: rgb(255, 81, 1);
+}
+.background-arrow {
+    width: 20px;
+    margin: 0 0 15px 0;
+    height: 20px;
+    background-color: rgb(255, 81, 1);
+    padding: 13px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.background-arrow:hover {
+    scale: 1.1;
+    transition: 0.4s ease;
+}

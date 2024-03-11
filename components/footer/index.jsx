@@ -3,6 +3,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Fischer_logo from '../../../public/icons/TINTAS_FISCHER_logo.png'
 import { Link } from 'react-router-dom'
+import Backtop from '../back-to-top_btn'
 
 function Footer() {
     Aos.init()
@@ -59,7 +60,7 @@ function Footer() {
                                 Copyright &copy; 2024, Tintas Fischer Todos os direitos reservados
                             </span>
                             <span>
-                                Developed by; Gabriel Sabino
+                        <Backtop />
                             </span>
                         </div>
                     </footer>

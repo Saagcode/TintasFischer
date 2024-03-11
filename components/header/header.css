@@ -143,9 +143,18 @@
     padding: 3px;
 }
 
+.search-bar_expanded li:hover {
+    background-color: #2424241a;
+    transition: 0.4s ease;
+}
+
 .search-bar_expanded li {
+    cursor: pointer;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.200);
     padding: 1px;
+}
+.search-bar_expanded ul {
+    padding: 0;
 }
 
 .search-bar_expanded_container {
