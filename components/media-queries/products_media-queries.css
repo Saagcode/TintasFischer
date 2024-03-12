@@ -1,0 +1,270 @@
+@media screen and (max-width: 900px) {
+    .section-container_products_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        min-height: 25vh;
+        padding: 20px;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        background-color: #24242485;
+        z-index: 0;
+        border-bottom-right-radius: 50px;
+        border: 1px rgba(255, 255, 0, 0.300) dotted;
+        border-top: none;
+    }
+
+    .greetings_text_products_2 h1 {
+        margin: 25px auto;
+        font-weight: 500;
+        font-size: 15pt;
+        width: 60%;
+        line-height: 1.5;
+    }
+
+    .greetings_text_products_2 {
+        display: flex;
+        margin: 10px auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-grid-brands {
+        margin: 0 auto 0 3px;
+    }
+
+    .grid-brands {
+        margin: 0 0;
+    }
+
+    .brand-1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-4 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-5 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-6 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-7 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-8 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-9 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-10 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-11 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-12 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-13 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-14 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-15 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .section-container_products {
+        display: flex;
+        flex-direction: column;
+       margin: 55px auto 0 auto;
+       width: 80%;
+       border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+
+    .greetings_text_products h1 {
+        margin: 35px auto;
+        font-weight: 500;
+        font-size: 20pt;
+        line-height: 0.5;
+    }
+
+    .section-container_products p {
+        margin: 25px auto;
+        font-size: 14pt;
+        width: 90%;
+        text-align: center
+    }
+
+    .section-container_contact-copy {
+        height: 35%;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        right: 8px;
+        z-index: 100;
+        backdrop-filter: blur(10px);
+        top: 25px;
+        border-bottom-right-radius: 50px;
+    }
+    .section-container_contact-copy p {
+        font-size: 0.7em;
+        font-weight: 600;
+        margin: 20px 0 5px 0;
+    }
+    
+    .section-container_contact-copy h1 {
+        font-size: 1em;
+        margin: 20px 0 5px 0;
+    }
+    .fa-whatsapp {
+        font-size: 20pt;
+    }
+    .title-block {
+        font-size: 10pt;
+        width: 60%;
+        margin: 0;
+    }
+    .repair-img-block {
+        width: 80%;
+    }
+    .products-repair h2 {
+        font-size: 7pt;
+    }
+    .products-floor {
+        width: 40%;
+    }
+    .products-floor h2 {
+        font-size: 7pt;
+    }
+    .products-floor div {
+        margin: 10px;
+    }
+    .products-rubberized h2 {
+        font-size: 7pt;
+    }
+    .products-rubberized div {
+        margin: 10px;
+    }
+    .products-acrilics h2 {
+        font-size: 7pt;
+    }
+    .products-acrilics div {
+        margin: 10px;
+    }
+    .products-resins h2 {
+        font-size: 7pt;
+    }
+    .products-resins div {
+        margin: 10px;
+    }
+    .products-special h2 {
+        font-size: 7pt;
+    }
+    .products-special div {
+        margin: 10px;
+    }
+    .products-roof h2 {
+        font-size: 7pt;
+    }
+    .products-roof div {
+        margin: 10px;
+    }
+    .products-spray h2 {
+        font-size: 7pt;
+    }
+    .products-spray div {
+        margin: 10px;
+    }
+    .products-moisture h2 {
+        font-size: 7pt;
+    }
+    .products-moisture div {
+        margin: 20px;
+    }
+    .products-varnishes h2 {
+        font-size: 7pt;
+    }
+    .products-varnishes div {
+        margin: 10px;
+    }
+    .products-funds h2 {
+        font-size: 7pt;
+    }
+    .products-funds div {
+        margin: 5px;
+    }
+    .products-polishes h2 {
+        font-size: 7pt;
+    }
+    .products-finishes h2 {
+        font-size: 7pt;
+    }
+    .products-liquidruber h2 {
+        font-size: 7pt;
+    }
+    .products-epoxi h2 {
+        font-size: 7pt;
+    }
+    .section-container_products_footer {
+        width: 90%;
+        padding: 15px;
+        margin: 100px auto 0 auto;
+    }
+    .greetings_text_products_footer h1 {
+        font-size: 15pt;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .linktoluks {
+        font-size: 11pt;
+    }
+    .section-container_products_footer p {
+        margin: 20px auto;
+        width: 90%;
+        font-weight: 200;
+        font-size: 11pt;
+    }
+}

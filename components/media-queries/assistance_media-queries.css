@@ -1,0 +1,87 @@
+@media screen and (max-width: 900px) {
+    .section-about_painter {
+        min-height: 140vh;
+    }
+
+    .section-container_contact_painter {
+        width: auto;
+        height: auto;
+        padding: 15px;
+        align-items: center;
+        margin: 0px 0px;
+    }
+
+    .container_painter_text p {
+        font-size: 13pt;
+        padding: 10px;
+    }
+
+    .container_painter_text h1 {
+        margin: 20px;
+        font-size: 15pt;
+    }
+
+    .container-copy {
+        width: auto;
+        margin: 0 30px;
+        font-size: 13pt;
+        padding: 20px;
+    }
+
+    .container-copy p {
+        width: 100%;
+        padding: 5px;
+        font-size: 11pt;
+    }
+
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .section-container_contact_1 {
+        width: auto;
+        margin: 0 10px;
+        padding: 10px 0px 0px 15px;
+        height: auto;
+    }
+
+    .greetings_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .greetings_text p {
+        font-size: 12pt;
+        width: 90%;
+        margin: 50px 0 50px 20px;
+    }
+
+    .greetings_text h1 {
+        font-weight: 700;
+        text-align: left;
+        width: 95%;
+        font-size: 15pt;
+        line-height: 1.5;
+    }
+
+    .section-body_form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        margin: 0;
+        height: auto;
+        scale: 0.7;
+    }
+
+    .body_form {
+        padding: 15px;
+    }
+
+    .body_form p {
+        margin: 10px auto;
+    }
+}

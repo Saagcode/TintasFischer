@@ -1,0 +1,92 @@
+@media screen and (max-width: 900px) {
+    .section-container_inspirations {
+        width: 80%;
+    }
+
+    .greetings_text_inspirations h1 {
+        font-size: 18pt;
+    }
+
+    .container-text_colors-personalized {
+        width: auto;
+        margin: 50px 10px;
+    }
+
+    .copy-colors-title {
+        font-size: 12pt;
+    }
+
+    .copy-colors-personalized-header h2 {
+        font-size: 13pt;
+    }
+
+    .container-house_projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_img-casa_1 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .img-casa_1 {
+        width: 80%;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    .grid-img-text_1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-casa_2 {
+        width: 80%;
+        height: 100%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .container_img-casa_2 {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .grid-img-text_2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .copy-colors-personalized_1 h2 {
+        text-align: left;
+        font-weight: 200;
+        font-size: 9pt;
+        padding: 0px 10px 0 25px;
+    }
+
+    .copy-colors-personalized_2 h2 {
+        text-align: right;
+        font-weight: 200;
+        font-size: 9pt;
+        padding: 0px 25px 0 10px;
+    }
+
+    .section-container_inspirations_downside {
+        width: auto;
+        height: 35%;
+        padding: 20px;
+        margin: 40px 10px auto;
+        background-color: #24242485;
+        z-index: 0;
+        box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.8);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border: 1px rgba(255, 255, 0, 0.300) dotted;
+        border-bottom: none;
+    }
+}

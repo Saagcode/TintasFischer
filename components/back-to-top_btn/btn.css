@@ -5,7 +5,7 @@
     align-items: center;
 }
 .dev-merchan {
-    margin: 0px 25px;
+    margin: 0px 47px;
 }
 .dev-name {
     font-style: italic;
@@ -20,7 +20,7 @@
     margin: 0 0 15px 0;
     height: 20px;
     background-color: rgb(255, 81, 1);
-    padding: 13px;
+    padding: 10px;
     border-radius: 50px;
     color: white;
     font-size: 15pt;

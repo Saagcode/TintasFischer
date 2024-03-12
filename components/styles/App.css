@@ -34,6 +34,7 @@
   font-size: 25pt;
   color: rgb(255, 255, 255);
   font-style: italic;
+  margin: 40px 90px;
 }
 
 .subtitle-presentation {
@@ -43,6 +44,7 @@
   text-align: left;
   color: rgb(255, 255, 255);
   line-height: 1.5;
+  margin: 40px 90px;
 }
 
 .subtitle-aux {
@@ -93,11 +95,6 @@ button .fa-arrow-right {
   transition: 0.4s;
   background-color: white;
   color: #000;
-}
-
-.mass-on-wall {
-  border-radius: 1000%;
-  width: 60%;
 }
 
 .section-container_body_home {
@@ -207,11 +204,12 @@ button .fa-arrow-right {
 }
 
 .desc_text {
-  margin: 0px 30px;
+  margin: 0px 20px;
   align-items: center;
   position: relative;
-  top: 50px;
+  top: 20px;
   font-size: 13pt;
+  padding: 0px 0;
 }
 
 .card-product_1 {

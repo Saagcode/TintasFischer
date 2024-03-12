@@ -3,6 +3,7 @@ import '../src/components/styles/App.css'
 import Container from './components/container/index.jsx'
 import Header from './components/header/index.jsx'
 import Footer from './components/footer/index.jsx'
+import './components/media-queries/home_media-queries.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import house from '../public/icons/house.png'
@@ -28,11 +29,11 @@ function App() {
           <section className='background_gradient' data-aos='fade-right' data-aos-duration='800' data-aos-offset='50'>
             <section className='section-container_tittle' style={{ background: 'linear-gradient(45deg, #dfb004, #ffc800ab)' }}>
               <div className='section-copy' data-aos='fade-right' data-aos-duration='2200' data-aos-offset='50'>
-                <h1 className='title-presentation' style={{ margin: '40px 90px' }}>
+                <h1 className='title-presentation'>
                   As melhores soluções em
                 </h1>
-                <h2 className='subtitle-presentation' style={{ margin: '40px 90px' }}>
-                  Tintas Residenciais, Automotivas, Industriais e Equipamentos para Pintura
+                <h2 className='subtitle-presentation'>
+                  Tintas Imobiliárias, Automotivas, Industriais e Equipamentos para Pintura
                 </h2>
                 <Link to='/sobre'>
                   <button className='btn_know-more'>

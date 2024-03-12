@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import Fischer_logo from '../../../public/icons/TINTAS_FISCHER_logo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import { userSearch } from '../../../data/index.jsx';
+import '../media-queries/header_media-queries.css'
 
 function Header() {
     useEffect(() => {
@@ -31,8 +32,10 @@ function Header() {
     const handleShowHistory = () => {
         if (search === '') {
             setShowHistory(true);
+            setShowSearchList(true);
         } else {
             setShowHistory(false);
+            setShowSearchList(false);
         }
     }
     const handleCloseHistory = () => {
@@ -40,6 +43,9 @@ function Header() {
     }
 
     const [search, setSearch] = useState('');
+    const [showSearchList, setShowSearchList] = useState(false);
+
+
     const [filteredResults, setFilteredResults] = useState([]);
 
     const dellSearch = () => {
@@ -121,7 +127,7 @@ function Header() {
 
     const handleSearchInputChange = (e) => {
         const inputValue = e.target.value.toLowerCase(); // Convertendo o valor para minúsculas
-    
+
 
         const filteredResults = userSearch.filter(researches =>
             researches.msg.toLowerCase().includes(inputValue)
@@ -138,6 +144,7 @@ function Header() {
 
     const handleSearchItemClick = (searchText) => {
         setSearch(searchText);
+        setShowSearchList(false);
     }
 
     const [showGrid1, setShowGrid1] = useState(true);
@@ -228,7 +235,7 @@ function Header() {
                                 </div>
                             </>
                         )}
-                        {search && (
+                        {search && showSearchList && (
                             <>
                                 <div className='search-bar_expanded_container'>
                                     <div className='search-bar_expanded' data-aos='fade-down' data-aos-duration='500' data-aos-offset='50'>
@@ -255,7 +262,7 @@ function Header() {
                     <div className='section-menu_content'>
                         <span className={scroll ? '' : 'fa-solid fa-bars'} onClick={animation} />
                         {featureMenu && (
-                            <span style={{ transition: '1s' }} className='fa-solid fa-bars' onClick={animation} data-aos='fade-up' data-aos-offset='50' data-aos-duration='1000' />
+                            <span style={{ transition: '1s' }} className='fa-solid fa-bars' id='bar-emote' onClick={animation} data-aos='fade-up' data-aos-offset='50' data-aos-duration='1000' />
                         )}
                         {scroll && (
                             <ul data-aos='fade-right' data-aos-offset='50' data-aos-duration='1500'>
@@ -276,7 +283,7 @@ function Header() {
                         <span className='fa-solid fa-circle-left' onClick={toggleGrid1} />
                     </div>
                     {showGrid1 && (
-                        <div className={currentGrid === 1 ? 'section-contact_content_1' : ''} data-aos='fade-right' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_1)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }}  onClick={() => { handleWhatsapp('+55992925651') }}>
+                        <div className={currentGrid === 1 ? 'section-contact_content_1' : ''} data-aos='fade-right' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_1)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+55992925651') }}>
                             <h1>Projeção de Cores</h1>
                         </div>
                     )}

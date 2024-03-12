@@ -1,3 +1,4 @@
+import '../media-queries/footer_media-queries.css'
 import './footer.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -14,7 +15,7 @@ function Footer() {
                     <div className='section-grid' data-aos='fade-up' data-aos-duration='1200' data-aos-offset='50'>
                         <div className='tittle_content'>
                             <h2 className='title-fischer'>
-                                <img src={Fischer_logo} alt="" />
+                                <img src={Fischer_logo} alt="" className='img-logo-fischer'/>
                             </h2>
                             <span className='fa-brands fa-instagram' style={{ fontSize: '20pt' }} />
                             <span className='fa-brands fa-square-facebook' style={{ fontSize: '20pt' }} />

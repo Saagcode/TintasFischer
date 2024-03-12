@@ -1,0 +1,45 @@
+@media screen and (max-width: 900px) {
+    .section-footer_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0;
+    }
+
+    .section-footer_content .section-grid {
+        display: flex;
+        flex-direction: column;
+        font-size: 5pt;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .section-footer_content .subtittle_content {
+        margin: 20px auto;
+        height: 100%;
+        padding: 5px 0;
+        font-size: 11pt;
+    }
+
+    .section-footer_content .title-fischer img {
+        width: 70%;
+    }
+
+    .section-footer_content .tittle_content {
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+
+    .section-footer_content .section-container_copy {
+        display: flex;
+        flex-direction: column;
+        font-size: 7pt;
+        width: 80%;
+    }
+
+   footer {
+         border-top: 1px rgba(0, 0, 0, 0.400) solid;
+        padding: 15px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,233 @@
+@media screen and (max-width: 900px) {
+    .Link {
+        width: 100%;
+    }
+
+    .link:hover {
+        color: white;
+    }
+
+    .section-banner_info h2 {
+        padding: 0 10px;
+        font-size: 7pt;
+        width: 100%;
+    }
+
+    .text_phone {
+        display: block;
+    }
+
+    .tintasfischer-logo img {
+        display: flex;
+        justify-content: right;
+        width: 100%;
+    }
+
+    .tintasfischer-logo {
+        display: flex;
+        justify-content: right;
+        width: 30%;
+        left: 0px;
+        position: absolute;
+    }
+
+    .section-container_header {
+        text-align: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .search-bar {
+        position: relative;
+        left: 60px;
+        font-size: 0.7em;
+        height: 1em;
+        max-width: 200px;
+        flex: 2;
+    }
+
+    .search-bar_expanded {
+        height: 340px;
+        position: absolute;
+        top: 475px;
+        width: auto;
+        padding: 0;
+        border-radius: 5px;
+        z-index: 100;
+        border: 3px solid yellow;
+        background-color: #fffffff7;
+        overflow-y: scroll;
+        font-size: 10pt;
+    }
+
+    .search-bar_expanded div {
+        margin: 15px;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.200);
+        padding: 3px;
+    }
+    
+    .search-bar_expanded li:hover {
+        background-color: #2424241a;
+        transition: 0.4s ease;
+    }
+
+    .search-bar_expanded li {
+        cursor: pointer;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.200);
+        padding: 1px;
+    }
+
+    .search-bar_expanded ul {
+        padding: 0;
+    }
+
+    .search-bar_expanded_container {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .btn_search-bar_search {
+        position: relative;
+        left: 85px;
+    }
+
+    .btn_search-bar_cancel {
+        position: relative;
+        left: 35px;
+    }
+
+    .fa-square-facebook {
+        font-size: 15pt;
+        position: relative;
+        top: 35px;
+    }
+
+    .fa-instagram {
+        font-size: 15pt;
+        position: relative;
+        top: 35px;
+    }
+
+    .section-menu_content ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-menu_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 4px solid rgba(255, 255, 0, 0.800);
+        background-color: #ffffff;
+        height: auto;
+        width: 100%;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.300);
+        z-index: 100;
+    }
+
+    .section-menu_content li {
+        display: flex;
+        flex-direction: column;
+        color: #000000;
+        font-size: 12pt;
+        margin: 13px 0px;
+        transition: 0.5s;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .section-menu_content li:hover {
+        background-color: #0000008f;
+        font-weight: 600;
+        color: #ffffff;
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.200);
+        padding: 5px;
+        transition: 0.4s ease;
+    }
+
+    .section-menu_content ul {
+        padding: 0;
+    }
+
+    .section-menu_content ul:hover {
+        padding: 0;
+        color: #ffffff;
+    }
+
+    li.li_1 {
+        margin: 13px 0;
+        padding: 0;
+
+    }
+
+    li.li_2 {
+        margin: 13px 0;
+        padding: 0;
+    }
+
+    li.li_3 {
+        margin: 13px 0;
+        padding: 0;
+    }
+
+    li.li_4 {
+        margin: 13px 0;
+        padding: 0;
+    }
+
+    li.li_5 {
+        margin: 13px 0;
+        padding: 0;
+    }
+
+    li.li_6 {
+        margin: 13px 0;
+        padding: 0;
+    }
+
+    .fa-bars {
+        font-size: 15pt;
+        transition: 1s;
+    }
+
+    #bar-emote {
+        position: absolute;
+        top: 116px;
+        right: 5px;
+    }
+
+    .section-container_contact>div {
+        display: flex;
+        height: 175px;
+        align-items: center;
+    }
+
+    .section-contact_content_2 {
+        height: 250px;
+        background-image: var(--background-section-contact_2);
+        background-position: bottom;
+    }
+
+    .section-container_contact h1 {
+        border-left: 2px solid yellow;
+        margin-top: -120px;
+        margin-left: 0;
+        font-size: 8pt;
+        width: 100%;
+    }
+
+    .fa-circle-left {
+        font-size: 25pt
+    }
+
+    .fa-circle-right {
+        font-size: 25pt
+    }
+}

@@ -1,0 +1,172 @@
+@media screen and (max-width: 900px) {
+
+    .section-container_tittle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        z-index: 100;
+        box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.8);
+    }
+
+    .title-presentation {
+        font-size: 18pt;
+        margin: 40px 20px;
+    }
+
+    .subtitle-presentation {
+        font-size: 15pt;
+        width: 90%;
+        margin: 40px 20px;
+    }
+
+    .subtitle-aux {
+        margin: 5px 25px;
+        font-weight: 300;
+        font-size: 9pt;
+        width: 36%;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+    }
+
+    .section-copy {
+        text-align: left;
+        color: black;
+        font-size: 18pt;
+    }
+
+    .section-copy button {
+        margin: 40px 0px 20px 20px;
+        border-radius: 10px;
+        padding: 15px;
+        width: 40%;
+        text-align: left;
+        font-size: 8pt;
+        transition: 0.4s;
+    }
+
+    button .fa-arrow-right {
+        float: right;
+        font-size: 8pt;
+    }
+
+    .btn_know-more {
+        border: none;
+        background-color: rgb(255, 81, 1);
+        width: 100%;
+    }
+
+    .section-container_body_home {
+        min-height: 100vh;
+        width: 100%;
+        background-image: var(--background-home);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .greetings_text_home h1 {
+        font-weight: 600;
+        width: 90%;
+        font-size: 13pt;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .greetings_text_ask h1 {
+        font-weight: 200;
+        width: 90%;
+        font-size: 10pt;
+        margin: 0 35px;
+        text-align: right;
+        float: right;
+
+    }
+
+    .section-container_services {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .section-container_services p {
+        font-size: 8pt;
+        font-weight: 500;
+        line-height: 1.5;
+        background-color: rgba(73, 72, 72, 0.35);
+        border-radius: 50px;
+        padding: 20px;
+        width: 80%;
+    }
+
+    .section-container_services h1 {
+        font-size: 10pt;
+        text-indent: 0;
+        font-style: italic;
+    }
+
+    .section-container_products_home {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+        width: calc(100%/1);
+        gap: 8rem;
+        text-align: left;
+        height: auto;
+    }
+
+    .container-img_title .title {
+        text-align: left;
+        margin: 0px 30px;
+        font-size: 12pt;
+        font-weight: bold;
+    }
+
+    .container-img_title p {
+        text-align: left;
+        font-size: 10pt;
+        margin: 0px 0px;
+        font-weight: 200;
+    }
+
+    .desc_text {
+        margin: 15px 30px;
+        align-items: center;
+        position: relative;
+        top: 0px;
+        padding: 15px 0;
+        font-size: 10pt;
+    }
+
+    .background-house {
+        width: 20%;
+    }
+
+    .background-industrial {
+        width: 20%;
+    }
+
+    .background-suv {
+        width: 20%;
+    }
+
+    .background-roller {
+        width: 20%;
+    }
+
+    .container-img-tools {
+        width: 100%;
+        background-image: var(--background-card-4);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        height: 100%;
+      }
+      
+}
