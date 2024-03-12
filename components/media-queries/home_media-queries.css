@@ -1,5 +1,7 @@
 @media screen and (max-width: 900px) {
-
+    a {
+        text-decoration: none;
+    }
     .section-container_tittle {
         display: flex;
         justify-content: center;
@@ -12,17 +14,17 @@
 
     .title-presentation {
         font-size: 18pt;
-        margin: 40px 10px;
+        margin: 40px 20px;
     }
 
     .subtitle-presentation {
         font-size: 15pt;
         width: 90%;
-        margin: 40px 10px;
+        margin: 40px 20px;
     }
 
     .subtitle-aux {
-        margin: 5px 15px;
+        margin: 5px 90px 30px 25px;
         font-weight: 300;
         font-size: 9pt;
         width: 36%;
@@ -37,14 +39,23 @@
         font-size: 18pt;
     }
 
+    .section-button-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0rem;
+      }
+
     .section-copy button {
-        margin: 40px 0px 10px 10px;
+        display: flex;
+        margin: 0px 0px 20px 20px;
         border-radius: 10px;
         padding: 15px;
-        width: 40%;
         text-align: left;
         font-size: 8pt;
         transition: 0.4s;
+        justify-content: space-between;
+        align-items: center;
     }
 
     button .fa-arrow-right {
@@ -52,15 +63,15 @@
         font-size: 8pt;
     }
 
-    .btn_know-more {
+    .btn-know button {
         border: none;
         background-color: rgb(255, 81, 1);
-        width: 100%;
+        width: 30%;
         color: white;
     }
 
-    .btn_business {
-        width: 100%;
+    .btn-busy button {
+        width: 45%;
     }
 
     .section-container_body_home {

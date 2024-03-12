@@ -35,17 +35,23 @@ function App() {
                 <h2 className='subtitle-presentation'>
                   Tintas Imobiliárias, Automotivas, Industriais e Equipamentos para Pintura
                 </h2>
-                <Link to='/sobre'>
-                  <button className='btn_know-more'>
-                    Saiba mais
-                    <span className='fa-solid fa-arrow-right' />
-                  </button>
-                </Link>
-                <Link to='/contato'>
-                  <button className='btn_business'>
-                    Faça negócio conosco <span className='fa-solid fa-arrow-right' />
-                  </button>
-                </Link>
+                <section className='section-button-group'>
+                  <div className='btn-know'>
+                    <Link to='/sobre'>
+                      <button className='btn_know-more'>
+                        Saiba mais
+                        <span className='fa-solid fa-arrow-right' />
+                      </button>
+                    </Link>
+                  </div>
+                  <div className='btn-busy'>
+                    <Link to='/contato'>
+                      <button className='btn_business'>
+                        Faça negócio conosco <span className='fa-solid fa-arrow-right' />
+                      </button>
+                    </Link>
+                  </div>
+                </section>
                 <p className='subtitle-aux'>
                   temos uma equipe de profissionais para lhe auxiliar na escolha do melhor negócio. Basta entrar em contato.
                 </p>
@@ -159,9 +165,9 @@ function App() {
                   </p>
                 </h1>
               </div>
-                <h1 className='desc_text'>
-                  Seja qual for a superfície, nós oferecemos a você as melhores opções de materiais de pintura.
-                </h1>
+              <h1 className='desc_text'>
+                Seja qual for a superfície, nós oferecemos a você as melhores opções de materiais de pintura.
+              </h1>
             </div>
           </section>
         </section>

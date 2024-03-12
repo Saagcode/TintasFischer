@@ -52,7 +52,7 @@
 }
 
 .subtitle-aux {
-  margin: 5px 90px;
+  margin: 5px 90px 90px 90px;
   font-weight: 300;
   font-size: 15pt;
   width: 36%;
@@ -61,12 +61,19 @@
   font-style: italic;
 }
 
+.section-button-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 2rem;
+}
+
 .section-copy button {
   margin: 40px 0px 40px 90px;
   border-radius: 10px;
   padding: 20px;
-  width: 35%;
-  text-align: justify;
+  width: 90%;
+  text-align: left;
   font-size: 15pt;
   transition: 0.4s;
 }
