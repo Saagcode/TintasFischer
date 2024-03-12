@@ -89,4 +89,15 @@
         border: 1px rgba(255, 255, 0, 0.300) dotted;
         border-bottom: none;
     }
+
+    .container_img-apt_1 {
+        width: 70%;
+        margin-left: 20px;
+    }
+    
+    .container_img-apt_2 {
+        width: 70%;
+        margin-left: 0px;
+    }
+    
 }
