@@ -44,17 +44,22 @@
         height: 1em;
         max-width: 200px;
         flex: 2;
+        z-index: 201;
     }
 
     .search-bar_expanded {
         height: 340px;
         position: absolute;
-        top: 475px;
+        top: 112px;
+        right: 13px;
         width: auto;
         padding: 0;
         border-radius: 5px;
-        z-index: 100;
-        border: 3px solid yellow;
+        z-index: 200;
+        border-top: none;
+        border-bottom: 3px solid yellow;
+        border-left: 3px solid yellow;
+        border-right: 1px solid yellow;
         background-color: #fffffff7;
         overflow-y: scroll;
         font-size: 10pt;

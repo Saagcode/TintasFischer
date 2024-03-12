@@ -6,6 +6,10 @@
   --background-card-4: url('../public/home-images/toolsforpaint.jpg');
 }
 
+.link {
+  color: white;
+}
+
 .section-container_tittle {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

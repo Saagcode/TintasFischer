@@ -35,6 +35,22 @@
         margin: 0 auto 0 3px;
     }
 
+
+    .caret-right {
+        align-items: center;
+    }
+    
+    .fa-square-caret-right {
+        align-items: center;
+    }
+    
+    .fa-square-caret-left {
+        align-items: center;
+    }
+    
+    .caret-left {
+        align-items: center;
+    }
     .grid-brands {
         margin: 0 0;
     }
@@ -138,12 +154,11 @@
     }
 
     .section-container_contact-copy {
-        height: 35%;
-        width: 85%;
+        height: auto;
+        width: auto;
         display: flex;
         justify-content: center;
-        margin: 0 auto;
-        right: 8px;
+        margin: 0 5px;
         z-index: 100;
         backdrop-filter: blur(10px);
         top: 25px;
