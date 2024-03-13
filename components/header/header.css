@@ -356,10 +356,12 @@ li.li_6:hover::after {
     border-radius: 5px;
 }
 
-.section-menu_content li:hover {
+.section-menu_content a:hover {
     transition: 0.5s;
     color: rgb(152, 30, 30);
 }
+
+
 
 .section-menu_content ul {
     display: flex;

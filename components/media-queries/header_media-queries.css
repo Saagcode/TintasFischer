@@ -97,7 +97,7 @@
     .search-bar_expanded li {
         cursor: pointer;
         border-bottom: 1px dashed rgba(0, 0, 0, 0.200);
-        padding: 1px;
+        padding: 1px 15px;
     }
 
     .search-bar_expanded ul {
@@ -166,7 +166,7 @@
         width: 100%;
     }
 
-    .section-menu_content li:hover {
+    .section-menu_content a:hover {
         background-color: #0000008f;
         font-weight: 600;
         color: #ffffff;

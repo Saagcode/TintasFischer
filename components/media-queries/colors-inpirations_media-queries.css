@@ -76,13 +76,33 @@
         padding: 0px 25px 0 10px;
     }
 
+    .greetings_text_inspirations_houses {
+        margin: 0px 0;
+        font-weight: 500;
+        font-size: 15pt;
+        line-height: 1.5;
+    }
+
+    .grid-projects_houses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100%/5);
+        gap: 1rem;
+    }
+
+    .container-grid-projects_houses {
+        padding: 25px 45px;
+    }
+
     .section-container_inspirations_downside {
         width: auto;
         height: 35%;
         padding: 20px;
         margin: 40px 10px auto;
         background-color: #24242485;
-        z-index: 0;
+        z-index: -10;
         box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.8);
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
@@ -94,10 +114,30 @@
         width: 70%;
         margin-left: 20px;
     }
-    
+
     .container_img-apt_2 {
         width: 70%;
         margin-left: 0px;
     }
-    
+
+    .greetings_text_inspirations_apts {
+        margin: 0px 0;
+        font-weight: 500;
+        font-size: 15pt;
+        line-height: 1.5;
+    }
+
+    .grid-projects_apts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100%/5);
+        gap: 1rem;
+    }
+
+    .container-grid-projects_apts {
+        padding: 25px 45px;
+    }
+
 }
