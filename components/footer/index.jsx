@@ -17,8 +17,8 @@ function Footer() {
                             <h2 className='title-fischer'>
                                 <img src={Fischer_logo} alt="" className='img-logo-fischer'/>
                             </h2>
-                            <span className='fa-brands fa-instagram' style={{ fontSize: '20pt' }} />
-                            <span className='fa-brands fa-square-facebook' style={{ fontSize: '20pt' }} />
+                            <span className='fa-brands fa-instagram' style={{ fontSize: '20pt', cursor:'pointer' }} onClick={() => window.open('https://www.instagram.com/tintasfischer/')}/>
+                            <span className='fa-brands fa-square-facebook' style={{ fontSize: '20pt', cursor:'pointer' }} onClick={() => window.open('https://www.facebook.com/lojatintasfischer/about/')}/>
 
                         </div>
                         <div className='subtittle_content'>
