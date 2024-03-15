@@ -170,6 +170,19 @@ function App() {
               </h1>
             </div>
           </section>
+          <section className='section-container_products_footer' data-aos='fade-up' data-aos-duration='1500' data-aos-offset='50'>
+            <div className='greetings_text_products_footer'>
+              <h1>
+                Conheça o catálogo virtual de uma de nossas empresas parceiras!
+              </h1>
+              <h2 onClick={() => window.open('https://www.lukscolor.com.br/cores')} className='linktoluks'>
+                https://www.lukscolor.com.br/cores
+              </h2>
+              <p>
+                Coleções exclusivas com mais de 2000 opções de cores nos mais diversos acabamentos. Você consulta nossos catálogos e o LUKSYSTEM reproduz na hora a cor que você sempre sonhou.
+              </p>
+            </div>
+          </section>
         </section>
 
         <Footer />

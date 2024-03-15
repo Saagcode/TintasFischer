@@ -15,7 +15,7 @@ function Footer() {
                     <div className='section-grid' data-aos='fade-up' data-aos-duration='1200' data-aos-offset='50'>
                         <div className='tittle_content'>
                             <h2 className='title-fischer'>
-                                <img src={Fischer_logo} alt="" className='img-logo-fischer'/>
+                                <Link to='/home'><img src={Fischer_logo} alt="" className='img-logo-fischer'/></Link>
                             </h2>
                             <span className='fa-brands fa-instagram' style={{ fontSize: '20pt', cursor:'pointer' }} onClick={() => window.open('https://www.instagram.com/tintasfischer/')}/>
                             <span className='fa-brands fa-square-facebook' style={{ fontSize: '20pt', cursor:'pointer' }} onClick={() => window.open('https://www.facebook.com/lojatintasfischer/about/')}/>
