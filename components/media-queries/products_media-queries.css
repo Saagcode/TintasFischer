@@ -264,7 +264,9 @@
         font-size: 7pt;
     }
     .section-container_products_footer {
-        width: 90%;
+        display: flex;
+        justify-content: center;
+        width: auto;
         padding: 15px;
         margin: 100px auto 0 auto;
     }

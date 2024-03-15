@@ -283,18 +283,18 @@ function Header() {
                         <span className='fa-solid fa-circle-left' onClick={toggleGrid1} />
                     </div>
                     {showGrid1 && (
-                        <div className={currentGrid === 1 ? 'section-contact_content_1' : ''} data-aos='fade-right' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_1)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+55992925651') }}>
+                        <div className={currentGrid === 1 ? 'section-contact_content_1' : ''} data-aos='fade-right' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_1)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+5547992925651') }}>
                             <h1>Projeção de Cores</h1>
                         </div>
                     )}
-                    <div className='section-contact_content_2' onClick={() => { handleWhatsapp('+55991177303') }}>
+                    <div className='section-contact_content_2' onClick={() => { handleWhatsapp('+5547991177303') }}>
                         <h1>Metragem</h1>
                     </div>
-                    <div className='section-contact_content_3' onClick={() => { handleWhatsapp('+55991282123') }}>
+                    <div className='section-contact_content_3' onClick={() => { handleWhatsapp('+5547991282123') }}>
                         <h1>Assistência Técnica</h1>
                     </div>
                     {showGrid4 && (
-                        <div className={currentGrid === 4 ? 'section-contact_content_4' : ''} data-aos='fade-left' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_4)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+55991773890') }}>
+                        <div className={currentGrid === 4 ? 'section-contact_content_4' : ''} data-aos='fade-left' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_4)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+5547991773890') }}>
                             <h1>Repintura Predial</h1>
                         </div>
                     )}
