@@ -273,6 +273,7 @@
     .greetings_text_products_footer h1 {
         font-size: 15pt;
         width: 90%;
+        padding: 20px 0px;
         margin: 0 auto;
     }
     .linktoluks {
@@ -280,7 +281,7 @@
     }
     .section-container_products_footer p {
         margin: 20px auto;
-        width: 90%;
+        width: 80%;
         font-weight: 200;
         font-size: 11pt;
     }
