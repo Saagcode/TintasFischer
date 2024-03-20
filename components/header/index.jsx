@@ -196,7 +196,7 @@ function Header() {
                     <h2>
                         Santa Catarina |
                         <span
-                            className='text_shops'> Lojas
+                            className='text_shops'> <Link to='/sobre'>Lojas</Link>
                         </span>
                     </h2>
                     <h2>
