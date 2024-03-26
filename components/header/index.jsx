@@ -22,8 +22,7 @@ function Header() {
         window.open(`https://beacons.ai/tintasfischer`)
     }
 
-    const handleWhatsapp = (phoneNumber) => {
-        const message = 'Olá, eu gostaria de realizar uma compra!'
+    const handleWhatsapp = (phoneNumber, message) => {
         window.open(`https://wa.me/${phoneNumber}/?text=${encodeURIComponent(message)}`);
     }
 
@@ -283,18 +282,18 @@ function Header() {
                         <span className='fa-solid fa-circle-left' onClick={toggleGrid1} />
                     </div>
                     {showGrid1 && (
-                        <div className={currentGrid === 1 ? 'section-contact_content_1' : ''} data-aos='fade-right' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_1)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+5547992925651') }}>
+                        <div className={currentGrid === 1 ? 'section-contact_content_1' : ''} data-aos='fade-right' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_1)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+5547992925651', 'Olá, gostaria de realizar um projeto de cores da minha casa!') }}>
                             <h1>Projeção de Cores</h1>
                         </div>
                     )}
-                    <div className='section-contact_content_2' onClick={() => { handleWhatsapp('+5547991177303') }}>
+                    <div className='section-contact_content_2' onClick={() => { handleWhatsapp('+5547991177303', 'Olá, gostaria de uma visita técnica pois estou com problemas ou dúvidas!') }}>
                         <h1>Metragem</h1>
                     </div>
-                    <div className='section-contact_content_3' onClick={() => { handleWhatsapp('+5547991282123') }}>
+                    <div className='section-contact_content_3' onClick={() => { handleWhatsapp('+5547991282123', 'Olá, gostaria que pudessem orçar conforme a metragem da minha obra!') }}>
                         <h1>Assistência Técnica</h1>
                     </div>
                     {showGrid4 && (
-                        <div className={currentGrid === 4 ? 'section-contact_content_4' : ''} data-aos='fade-left' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_4)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+5547991773890') }}>
+                        <div className={currentGrid === 4 ? 'section-contact_content_4' : ''} data-aos='fade-left' data-aos-duration='1000' style={{ backgroundImage: 'var(--background-section-contact_4)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', cursor: 'pointer' }} onClick={() => { handleWhatsapp('+5547991773890', 'Olá, sou síndico do meu prédio e gostaria de marcar uma reunião.') }}>
                             <h1>Repintura Predial</h1>
                         </div>
                     )}
