@@ -23,6 +23,7 @@ function Header() {
   };
 
   const handleWhatsapp = (phoneNumber, message) => {
+    message = "Olá, eu gostaria de algumas informações";
     window.open(
       `https://wa.me/${phoneNumber}/?text=${encodeURIComponent(message)}`
     );
