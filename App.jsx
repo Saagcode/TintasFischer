@@ -15,16 +15,39 @@ import residencialpaint from "../public/home-images/residencialpaint.jpg";
 import industrialpaint from "../public/home-images/industrialpaint.jpg";
 import automotivepaint from "../public/home-images/automotivepaint.jpg";
 import toolsforpaint from "../public/home-images/toolsforpaint.jpg";
+import CentralCallBtn from "./components/central-call-btn/index.jsx";
 
 function App() {
+  const [appear, setAppear] = useState(false);
   useEffect(() => {
     Aos.init();
-  });
+    function windowMove() {
+      if (scrollY > 0) {
+        setAppear(true);
+      } else {
+        setAppear(false);
+      }
+    }
+
+    window.addEventListener("scroll", windowMove);
+
+    // Remover o event listener quando o componente for desmontado
+    return () => {
+      window.removeEventListener("scroll", windowMove);
+    };
+  }, []);
 
   return (
     <>
       <Container>
         <Header />
+        {appear ? (
+          <>
+            <CentralCallBtn />
+          </>
+        ) : (
+          <></>
+        )}
         <div
           style={{ background: "linear-gradient(45deg, #dfb004, #ffc800ab)" }}
         >
