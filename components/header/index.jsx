@@ -204,10 +204,10 @@ function Header() {
             <span
               className="text_phone"
               onClick={() => {
-                handleWhatsapp("+5547991773884");
+                handleWhatsapp("+5547991282123");
               }}
             >
-              47 9 9177-3884
+              47 9 9128-2123
             </span>
           </h2>
           <h2
